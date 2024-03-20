@@ -1,1 +1,152 @@
-/* место для вашего кода */
+body {
+  background-color: white;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 454px 148px 450px;
+  padding: 92px 24px 96px;
+}
+
+.header__menu {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 44px 36px 24px 27px;
+  list-style: circle;
+}
+
+/* .header__links-list-item {
+  justify-self: start;
+} */
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+/*.header__link {
+
+}*/
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 130px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+
+.header__address {
+  padding: 5px 26px 2px 184px;
+}
+
+.cover {
+  position: relative;
+  z-index: 0;
+  display: block;
+  width: 1100px;
+  padding: 165px 50px 62px;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+/*.letter-spacing-extended {
+    класс для управления межбуквенным расстоянием в местах, где есть эти акценты
+}*/
+
+/*.no-letter-spacing {
+    класс для обнуления общего межбуквенного расстояния для последней буквы
+}*/
+
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  margin: 147px 0 0 28px;
+}
+
+.cover__description-text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 20px;
+}
+
+.bet-button {
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.lots {
+  padding: 149px 24px 146px;
+}
+/*
+.about {
+
+}
+
+.footer {
+
+}*/
