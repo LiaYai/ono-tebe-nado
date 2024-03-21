@@ -22,10 +22,6 @@ body {
   list-style: circle;
 }
 
-/*.header__links-list-item {
-  border-bottom: 1px solid #000;
-}*/
-
 .header__links-list-item_no-bullit {
   list-style: none;
 }
@@ -217,13 +213,18 @@ body {
   font-size: 20px;
   line-height: 24px;
 }
-.lots__look-more-link {
-  display: block;
+
+.lots__look-more {
   padding-top: 30px;
   padding-left: 40px;
+}
+
+.lots__look-more-link {
   font-weight: 400;
   font-size: 20px;
   line-height: 23.5px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
 }
 
 .about {
