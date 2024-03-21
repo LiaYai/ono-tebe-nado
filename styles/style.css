@@ -299,3 +299,7 @@ body {
   gap: 48px;
   list-style: none;
 }
+
+.footer__social-icon {
+  width: 48px;
+}
