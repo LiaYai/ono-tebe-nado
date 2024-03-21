@@ -11,7 +11,7 @@ body {
 .header__menu {
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
 }
 
 .header__links-list {
@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.33;
 }
 
 .address a {
@@ -121,7 +121,7 @@ body {
   color: #ffffff;
   font-weight: 400;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
   text-transform: uppercase;
   word-spacing: 19px;
 }
@@ -132,7 +132,7 @@ body {
   color: #ffffff;
   font-weight: 500;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
@@ -147,7 +147,7 @@ body {
   padding-left: 40px;
   font-weight: 700;
   font-size: 40px;
-  line-height: 47px;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 
@@ -203,7 +203,7 @@ body {
 .card__title {
   font-weight: 700;
   font-size: 22px;
-  line-height: 26.4px;
+  line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -211,7 +211,7 @@ body {
 .card__text {
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .lots__look-more {
@@ -222,7 +222,7 @@ body {
 .lots__look-more-link {
   font-weight: 400;
   font-size: 20px;
-  line-height: 23.5px;
+  line-height: 1.17;
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
@@ -253,7 +253,7 @@ body {
   margin-bottom: 100px;
   font-weight: 700;
   font-size: 40px;
-  line-height: 47px;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 
@@ -263,7 +263,7 @@ body {
   gap: 24px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .footer {
@@ -276,7 +276,7 @@ body {
 .footer__menu {
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.13px;
+  line-height: 1.17;
   text-align: center;
   padding-left: 37px;
 }
